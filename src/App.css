@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  width: 100%;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #3079cc;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
